@@ -1,0 +1,72 @@
+.pic-background{
+    background: url("../img/marketingg.jpg") top center no-repeat; /* берём по урл фон, позиционируем сверху в центре и чтобы не повторялся */
+    background-size: cover;
+    max-width: 65rem;
+    min-height: 10rem;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.header-wrap-color {
+    background: linear-gradient(90deg, rgba(7, 106, 179, 0.75) 0%, rgba(10, 105, 178, 0.75) 9.09%, rgba(16, 103, 175, 0.75) 18.18%, rgba(23, 100, 171, 0.75) 27.27%, rgba(29, 96, 166, 0.75) 36.36%, rgba(34, 91, 161, 0.75) 45.45%, rgba(38, 87, 155, 0.75) 54.55%, rgba(41, 83, 150, 0.75) 63.64%, rgba(43, 79, 145, 0.75) 72.73%, rgba(44, 76, 141, 0.75) 81.82%, rgba(45, 74, 138, 0.75) 90.91%, rgba(45, 73, 137, 0.75) 100%);
+    /* padding: 5rem 0; */
+}
+
+.color-background{
+    display: flex;
+    background: linear-gradient(90deg,
+    rgba(7, 106, 179, 0.65) 0%,
+    rgba(10, 105, 178, 0.65) 9.09%,
+    rgba(16, 103, 175, 0.65) 18.18%,
+    rgba(23, 100, 171, 0.65) 27.27%,
+    rgba(29, 96, 166, 0.65) 36.36%,
+    rgba(34, 91, 161, 0.65) 45.45%,
+    rgba(38, 87, 155, 0.65) 54.55%,
+    rgba(41, 83, 150, 0.65) 63.64%,
+    rgba(43, 79, 145, 0.65) 72.73%,
+    rgba(44, 76, 141, 0.65) 81.82%,
+    rgba(45, 74, 138, 0.65) 90.91%,
+    rgba(45, 73, 137, 0.65) 100%);
+    height: 100%;
+    width: 100%;
+    min-height: 10rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-background h1{
+    font-size: 3rem;
+    color: white;
+}
+
+.content{
+    color: #2D4A8A;
+    padding: 0 1rem;
+    background-color: white ;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+/*    border-radius: 10px;*/
+    padding: 1rem;
+}
+
+iframe{
+    height: 113px;
+    /*max-height: 85px;*/
+    max-width: 1015px;
+}
+
+@media (max-width: 920px) {
+
+h1{
+    text-align: center;
+}
+
+    iframe{
+        min-height: 101px;
+    }
+
+    .content{
+        padding: 0.5rem;
+    }
+}

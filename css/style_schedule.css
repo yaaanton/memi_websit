@@ -1,0 +1,62 @@
+/*.header-wrap{
+    background: url("../img/Header-BG.png") top center no-repeat;
+    background-size: cover;
+}*/
+
+
+.header-wrap-color{
+    background: linear-gradient(90deg, rgba(7, 106, 179, 0.75) 0%, rgba(10, 105, 178, 0.75) 9.09%, rgba(16, 103, 175, 0.75) 18.18%, rgba(23, 100, 171, 0.75) 27.27%, rgba(29, 96, 166, 0.75) 36.36%, rgba(34, 91, 161, 0.75) 45.45%, rgba(38, 87, 155, 0.75) 54.55%, rgba(41, 83, 150, 0.75) 63.64%, rgba(43, 79, 145, 0.75) 72.73%, rgba(44, 76, 141, 0.75) 81.82%, rgba(45, 74, 138, 0.75) 90.91%, rgba(45, 73, 137, 0.75) 100%);
+    /* сделали линейный градиент, берется сразу код из фигмы */
+    /*padding: 5rem 0;*/ /* внутренний отступ контента от края элемента */
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content h1{
+    color: white;
+    margin: 1rem auto;
+}
+
+summary{
+    cursor: pointer;
+    min-width: 20.1rem;
+    color: white;
+    font-weight: normal;
+    background: #2D4A8A;
+    padding: 1rem;
+    border-radius: 15px;
+    border: 1px solid white;
+    border-width: thin;
+    /*margin: 0.5rem;*/
+}
+
+iframe{
+    border-radius: 15px;
+    width: 20.1rem;
+    height: 30rem;
+    border: 1px solid white;
+    border-width: thin;
+
+}
+
+.schedule-container{
+    /* margin: 0.25rem 1rem ;  */
+    margin: 0.25rem auto;
+}
+
+summary:hover {
+    background-color: #1764ABBF;
+}
+
+details[open] {
+    /* Set the max-height to a high value to reveal the content */
+    /*max-height: 1000px;*/
+    transition: max-height 0.5s ease; /* Add a smooth transition */
+}
+
+@media (max-width: 920px) {
+
+}
